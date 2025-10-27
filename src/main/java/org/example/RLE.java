@@ -36,10 +36,6 @@ public class RLE {
             counter = 0;
             lastChar = uncompressed.charAt(i);
             while (uncompressed.charAt(i) == lastChar) {
-                System.out.println(i);
-                System.out.println(lastChar);
-                System.out.println(uncompressed.charAt(i));
-                System.out.println("\n");
                 counter++;
                 i++;
                 if (i >= uncompressed.length()) {
