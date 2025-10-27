@@ -32,7 +32,7 @@ public class RLE {
         String compressed = "";
         char lastChar;
         int counter;
-        for (int i = 0; i < 20; i++) { // uncompressed.length()
+        for (int i = 0; i < uncompressed.length(); i++) {
             counter = 0;
             lastChar = uncompressed.charAt(i);
             while (uncompressed.charAt(i) == lastChar) {
